@@ -54,7 +54,7 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/primeng/resources/themes/lara-dark-indigo/theme.css",
+              "@angular/material/prebuilt-themes/purple-green.css",
               "node_modules/primeng/resources/primeng.min.css",
               "src/styles.scss"
             ],
