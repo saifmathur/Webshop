@@ -16,7 +16,7 @@ import { ToastModule } from "primeng/toast";
 import { BreadcrumbModule } from "primeng/breadcrumb";
 import { TableModule } from "primeng/table";
 import { CheckboxModule } from "primeng/checkbox";
-import { HeaderComponent } from './components/header/header.component';
+import { HeaderComponent } from "./components/header/header.component";
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent],
@@ -35,8 +35,7 @@ import { HeaderComponent } from './components/header/header.component';
     TableModule,
     CheckboxModule,
     MatSidenavModule,
-    MatToolbarModule
-
+    MatToolbarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
