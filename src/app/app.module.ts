@@ -9,20 +9,29 @@ import { MatIconModule } from "@angular/material/icon";
 import { MatToolbarModule } from "@angular/material/toolbar";
 import { MatBadgeModule } from "@angular/material/badge";
 import { MatMenuModule } from "@angular/material/menu";
-
+import { MatCardModule } from "@angular/material/card";
 
 import { HeaderComponent } from "./components/header/header.component";
+import { HomeComponent } from "./pages/home/home.component";
+import { ProductsHeaderComponent } from './pages/home/home-child-components/products-header/products-header.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HomeComponent,
+    ProductsHeaderComponent,
+  ],
   imports: [
-    BrowserModule,MatBadgeModule,
+    BrowserModule,
+    MatBadgeModule,
     AppRoutingModule,
     MatIconModule,
     BrowserAnimationsModule,
-    MatSidenavModule,MatMenuModule,
     MatSidenavModule,
+    MatMenuModule,
     MatToolbarModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],
