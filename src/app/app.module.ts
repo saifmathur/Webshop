@@ -6,6 +6,7 @@ import { AppComponent } from "./app.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
 
 
@@ -14,6 +15,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     AppComponent,
     LoginComponent,
     NavbarComponent,
+    LandingPageComponent,
   ],
   imports: [
     BrowserModule,

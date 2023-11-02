@@ -1,7 +1,9 @@
 .companyLogo{
     filter: drop-shadow(0 0 10px white);
-    animation: glow alternate 2s infinite;
+    animation: glow alternate 1s infinite;
     cursor: pointer;
+    width: auto;
+    height: 2.5rem;
 }
 
 @keyframes glow{
