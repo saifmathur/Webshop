@@ -1,11 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: "app-navbar",
   templateUrl: "./navbar.component.html",
   styleUrls: ["./navbar.component.scss"],
 })
-export class NavbarComponent {
+export class NavbarComponent implements OnInit{
+  ngOnInit(): void {
+    document.getElementById("userMenu")?.classList.add("hide")
+  }
+
+
+
   showMenu(){
     let el = document.getElementById("userMenu")
     let menuButton = document.getElementById("user-menu-button");
