@@ -1,0 +1,14 @@
+.companyLogo{
+    filter: drop-shadow(0 0 10px white);
+    animation: glow alternate 2s infinite;
+    cursor: pointer;
+}
+
+@keyframes glow{
+    0%{
+        filter: drop-shadow(0 0 10px white);
+    }
+    100%{
+        filter: drop-shadow(0 0 100px white);
+    }
+}
