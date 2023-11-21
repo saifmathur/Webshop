@@ -1,0 +1,16 @@
+.companyLogo{
+    filter: drop-shadow(0 0 10px white);
+    animation: glow alternate 1s infinite;
+    cursor: pointer;
+    width: auto;
+    height: 2.5rem;
+}
+
+@keyframes glow{
+    0%{
+        filter: drop-shadow(0 0 10px white);
+    }
+    100%{
+        filter: drop-shadow(0 0 100px white);
+    }
+}
